@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Today's Date
+        </title>
+    </head>
+    <body>
+    <% day = Date.today.strftime("%A") %>
+    <% month_day = Date.today.strftime("%B %d") %>
+    <% year = Date.today.strftime("%Y") %>
+    <%= "The date is #{day}, #{month_day}, #{year}, a.k.a Leap Day!" %>
+    </body>
+</html>
